@@ -1,6 +1,7 @@
-﻿<h1>CECILIA NFA 040 formulaire2</h1> 
+<h1>CECILIA NFA 040 formulaire2</h1> 
 </head>
 <body>
+<meta charset="utf8">
 <h1><style="color: violet">Dresseur de pokémon</h1>
 <ul>Les champs marqués d'une * sont obligatoires </ul>
 <form action="#">
@@ -14,7 +15,7 @@
 <p><input name="C" type="radio" value="bleu"/> Bleu </p>
 </p>
 <p>
-<p>Anniversaire* : <br><input name="A" type="Text" value=""></p>
+<p>Anniversaire* : <br><input type="date" id="date" name="Anniversaire" value="aaaa-mm-jj"></p>
 </p>
 <p><input type="submit" value="Envoyer" />
 </p>
