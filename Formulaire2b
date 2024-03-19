@@ -1,36 +1,25 @@
-﻿<html>
-<head>
-
-
+﻿<h1>CECILIA NFA 040 formulaire2</h1> 
 </head>
 <body>
-	<h1>Dresseur de pokémon</h1>
-
+<h1><style="color: violet">Dresseur de pokémon</h1>
+<ul>Les champs marqués d'une * sont obligatoires </ul>
 <form action="#">
 <fieldset>
-<ul>Les champs marqués d'une * sont obligatoires </ul>
-	<legend>Nouveau dresseur</legend>
-<p>Nom : <input name="A" type="Text" value="Nom ?"/></p>	
-<p>Prénom : <input name="B" type="Text" value="Prénom ?"/></p>
-</fieldset>
-<p>rouge <input name="C" type="radio" value="rouge"/> 
-jaune<input name="C" type="radio" value="jaune"/></p>
-	bleu<input name="C" type="radio" value="bleu"/></p>
+<legend>Nouveau dresseur</legend>
+<p>Nom * : <br><input name="A" type="Text" value=""/></p>	
+<p>Description : <br><input name="B" type="Text" value=""/></p>
+<p>Equipe</p>
+<p><input name="C" type="radio" value="rouge"/> Rouge </p> 
+<p><input name="C" type="radio" value="jaune"/> Jaune </p>
+<p><input name="C" type="radio" value="bleu"/> Bleu </p>
 </p>
 <p>
-	<p>Anniversaire* : <input name="A" type="Text" value="Anniversaire ?"/></p>
-
-<p>
-<textarea rows="3" cols="30	" name="H">
-<input type="date">
-</textarea>
-
+<p>Anniversaire* : <br><input name="A" type="Text" value=""></p>
 </p>
 <p><input type="submit" value="Envoyer" />
-<input type="reset"/>
 </p>
 
-
+</fieldset>
 </form>
 
 </body>
